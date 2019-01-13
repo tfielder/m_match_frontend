@@ -9,6 +9,7 @@ export const fetchMentors = async () => {
 
 export const postMentor = async (mentor) => {
   const url = 'https://mentor-match-api-tester.herokuapp.com/api/v1/mentors';
+  const url = 'https://mentor-match-api-tester.herokuapp.com/api/v1/mentors';
   const response = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
